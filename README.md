@@ -1,4 +1,4 @@
-# Seja bem vindo ao repositório do projeto Talker Manager CRUD API!
+# Seja bem vindo ao meu repositório do projeto Talker Manager CRUD API!
 
 https://user-images.githubusercontent.com/78225894/140179175-155352b4-f11b-4406-b2e3-06277c38a388.mp4
 

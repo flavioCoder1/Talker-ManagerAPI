@@ -7,17 +7,21 @@ https://user-images.githubusercontent.com/78225894/140179175-155352b4-f11b-4406-
 # Sumário
 
 - [Habilidades](#habilidades)
+
   - [O que foi desenvolvido](#o-que-foi-desenvolvido)
+  
   - [Desenvolvimento](#desenvolvimento)
+  
 - [Instruções para rodar o projeto](#instruções-para-rodar-o-projeto)
+
   - [Lista de requisitos](#lista-de-requisitos)
-    - [1 - Crie o endpoint GET /talker](#1---crie-o-endpoint-get-talker)
-    - [2 - Crie o endpoint GET /talker/:id](#2---crie-o-endpoint-get-talkerid)
-    - [3 - Crie o endpoint POST /login](#3---crie-o-endpoint-post-login)
-    - [4 - Crie o endpoint POST /talker](#4---crie-o-endpoint-post-talker)
-    - [5 - Crie o endpoint PUT /talker/:id](#5---crie-o-endpoint-put-talkerid)
-    - [6 - Crie o endpoint DELETE /talker/:id](#6---crie-o-endpoint-delete-talkerid)
-    - [7 - Crie o endpoint GET /talker/search?q=searchTerm](#7---crie-o-endpoint-get-talkersearchqsearchterm)
+    - [1 - Seleciona todas as pessoas palestrantesno endpoint GET /talker](#1---crie-o-endpoint-get-talker)
+    - [2 - Seleciona uma pessoa palestrante -> endpoint GET /talker/:id](#2---crie-o-endpoint-get-talkerid)
+    - [3 - Validará o login do palestrante o endpoint POST /login](#3---crie-o-endpoint-post-login)
+    - [4 - Cria um pessoa palestrante endpoint POST /talker](#4---crie-o-endpoint-post-talker)
+    - [5 - Edita uma pessoa palestrante no endpoint PUT /talker/:id](#5---crie-o-endpoint-put-talkerid)
+    - [6 - Deleta uma pessoa palestrante no endpoint DELETE /talker/:id](#6---crie-o-endpoint-delete-talkerid)
+    - [7 - Pesquisar por termo na query:`searchTerm` o endpoint GET /talker/search?q=searchTerm](#7---crie-o-endpoint-get-talkersearchqsearchterm)
 
 ---
 

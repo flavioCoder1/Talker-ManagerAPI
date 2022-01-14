@@ -84,7 +84,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
 
 ---
 
-### 1 - Acesse o endpoint GET `/talker`
+### 1 - Seleciona todas as pessoas palestrantes no endpoint GET `/talker`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -122,7 +122,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
 - Caso não exista nenhuma pessoa palestrante cadastrada o endpoint deve retornar um array vazio e o `status 200`.
 
 
-### 2 - Crie o endpoint GET `/talker/:id`
+### 2 - Seleciona uma pessoa palestrante -> endpoint GET `/talker/:id`
 
 - O endpoint deve retornar uma pessoa palestrante com base no id da rota. Devendo retornar o `status 200` ao fazer uma requisição `/talker/1`, com o seguinte corpo:
 
@@ -143,7 +143,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
   }
   ```
 
-### 3 - Crie o endpoint POST `/login`
+### 3 - Validará o login do palestrante o endpoint POST `/login`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -202,7 +202,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
     }
     ```
 
-### 4 - Crie o endpoint POST `/talker`
+### 4 - Cria um pessoa palestrante endpoint POST `/talker`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -321,7 +321,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
   }
   ```
 
-### 5 - Crie o endpoint PUT `/talker/:id`
+### 5 - Edita uma pessoa palestrante no endpoint PUT `/talker/:id`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -440,7 +440,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
   }
   ```
 
-### 6 - Crie o endpoint DELETE `/talker/:id`
+### 6 - Deleta uma pessoa palestrante no endpoint DELETE `/talker/:id`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -469,7 +469,7 @@ Uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrant
   ```
 
 
-### 7 - Crie o endpoint GET `/talker/search?q=searchTerm`
+### 7 - Pesquisar por termo na query:`searchTerm` o endpoint GET `/talker/search?q=searchTerm`
 
 #### Os seguintes pontos serão avaliados:
 
